@@ -130,3 +130,28 @@ $ git commit -m "I added a readme file in readme branch"
 [Readme a1680e5] I added a readme file in readme branch
  1 file changed, 5 insertions(+)
  create mode 100644 README.md
+HP@DESKTOP-05GHONL MINGW64 ~/storing (master|MERGING)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        new file:   README.md
+
+
+HP@DESKTOP-05GHONL MINGW64 ~/storing (master|MERGING)
+$ git commit -m "merged master and readme"
+[master ef3598e] merged master and readme
+
+HP@DESKTOP-05GHONL MINGW64 ~/storing (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
